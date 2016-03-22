@@ -1,0 +1,39 @@
+﻿Build started 2016-02-10 2:13:59 PM.
+     1>Project "C:\GameDev\_Projects\Network\SDLNET_PROJECT\SDLNET_PROJECT\SDLNET_PROJECT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ServerTCP.cpp
+         ServerTCP.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Release\SDLNET_PROJECT.exe" /NOLOGO assimp.lib glew32.lib glew32s.lib SDL2.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Release\SDLNET_PROJECT.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Release\SDLNET_PROJECT.lib" /MACHINE:X86 /SAFESEH Release\AssImpModelLoader.obj
+         Release\Camera3D.obj
+         Release\InputManager.obj
+         Release\main.obj
+         Release\Mesh.obj
+         Release\ServerTCP.obj
+         Release\ServerUDP.obj
+         Release\ShaderManager.obj
+         Release\ShaderNova.obj
+         Release\Shape.obj
+         Release\stb_image.obj
+         Release\Texture.obj
+         Release\ViewPort.obj
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_TCP_Recv
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_GetError
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_TCP_GetPeerAddress
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_Quit
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_TCP_Open
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_TCP_Close
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_TCP_Accept
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_Init
+     1>ServerTCP.obj : error LNK2001: unresolved external symbol _SDLNet_ResolveHost
+     1>ServerUDP.obj : error LNK2001: unresolved external symbol _SDLNet_AllocPacket
+     1>ServerUDP.obj : error LNK2001: unresolved external symbol _SDLNet_UDP_Open
+     1>ServerUDP.obj : error LNK2001: unresolved external symbol _SDLNet_FreePacket
+     1>ServerUDP.obj : error LNK2001: unresolved external symbol _SDLNet_UDP_Recv
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+     1>C:\GameDev\_Projects\Network\SDLNET_PROJECT\Release\SDLNET_PROJECT.exe : fatal error LNK1120: 14 unresolved externals
+     1>Done Building Project "C:\GameDev\_Projects\Network\SDLNET_PROJECT\SDLNET_PROJECT\SDLNET_PROJECT.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.08

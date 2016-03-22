@@ -1,0 +1,26 @@
+﻿Build started 2016-02-10 2:51:29 PM.
+     1>Project "C:\GameDev\_Projects\Network\SDLNET_PROJECT\SDLNET_PROJECT\SDLNET_PROJECT.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ServerUDP.cpp
+         ServerUDP.cpp
+     1>c:\gamedev\_projects\network\sdlnet_project\sdlnet_project\serverudp.cpp(125): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Debug\SDLNET_PROJECT.exe" /INCREMENTAL /NOLOGO SDL2_net.lib SDL2.lib SDL2main.lib opengl32.lib glew32.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Debug\SDLNET_PROJECT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GameDev\_Projects\Network\SDLNET_PROJECT\Debug\SDLNET_PROJECT.lib" /MACHINE:X86 Debug\AssImpModelLoader.obj
+         Debug\Camera3D.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\ServerTCP.obj
+         Debug\ServerUDP.obj
+         Debug\ShaderManager.obj
+         Debug\ShaderNova.obj
+         Debug\Shape.obj
+         Debug\stb_image.obj
+         Debug\Texture.obj
+         Debug\ViewPort.obj
+         SDLNET_PROJECT.vcxproj -> C:\GameDev\_Projects\Network\SDLNET_PROJECT\Debug\SDLNET_PROJECT.exe
+     1>Done Building Project "C:\GameDev\_Projects\Network\SDLNET_PROJECT\SDLNET_PROJECT\SDLNET_PROJECT.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48
